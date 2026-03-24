@@ -1,7 +1,7 @@
 import cors from "cors";
 import express from "express";
 import { z } from "zod";
-import { getAvailableCategories, searchInventory } from "./lib/search";
+import { getAvailableCategories, searchInventory } from "./lib/search.js";
 
 const searchQuerySchema = z
   .object({
