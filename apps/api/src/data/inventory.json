@@ -1,0 +1,14 @@
+[
+  { "id": 1, "productName": "Steel Water Bottle", "category": "Kitchen", "price": 299, "quantity": 40, "supplierName": "Urban Stock Hub", "city": "Bengaluru" },
+  { "id": 2, "productName": "Bluetooth Headphones", "category": "Electronics", "price": 1499, "quantity": 18, "supplierName": "SoundKart Wholesale", "city": "Hyderabad" },
+  { "id": 3, "productName": "Office Ergonomic Chair", "category": "Furniture", "price": 5499, "quantity": 6, "supplierName": "BulkSpace Furnishings", "city": "Mumbai" },
+  { "id": 4, "productName": "Ceramic Coffee Mug", "category": "Kitchen", "price": 199, "quantity": 75, "supplierName": "Urban Stock Hub", "city": "Bengaluru" },
+  { "id": 5, "productName": "USB-C Charging Cable", "category": "Electronics", "price": 349, "quantity": 120, "supplierName": "CableNest", "city": "Pune" },
+  { "id": 6, "productName": "Wooden Study Table", "category": "Furniture", "price": 6999, "quantity": 4, "supplierName": "BulkSpace Furnishings", "city": "Mumbai" },
+  { "id": 7, "productName": "Running Shoes", "category": "Fashion", "price": 2299, "quantity": 22, "supplierName": "StyleBridge", "city": "Delhi" },
+  { "id": 8, "productName": "Cotton T-Shirt", "category": "Fashion", "price": 499, "quantity": 90, "supplierName": "StyleBridge", "city": "Delhi" },
+  { "id": 9, "productName": "Laptop Stand", "category": "Electronics", "price": 899, "quantity": 33, "supplierName": "CableNest", "city": "Pune" },
+  { "id": 10, "productName": "Glass Food Storage Set", "category": "Kitchen", "price": 799, "quantity": 27, "supplierName": "FreshShelf Traders", "city": "Chennai" },
+  { "id": 11, "productName": "Bean Bag Chair", "category": "Furniture", "price": 1899, "quantity": 11, "supplierName": "BulkSpace Furnishings", "city": "Mumbai" },
+  { "id": 12, "productName": "Wireless Mouse", "category": "Electronics", "price": 699, "quantity": 48, "supplierName": "SoundKart Wholesale", "city": "Hyderabad" }
+]
