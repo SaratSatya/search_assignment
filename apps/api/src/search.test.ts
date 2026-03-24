@@ -1,6 +1,6 @@
 import request from "supertest";
 import { describe, expect, it } from "vitest";
-import { createApp } from "./app";
+import { createApp } from "./app.js";
 
 const app = createApp();
 
@@ -13,6 +13,23 @@ describe("GET /search", () => {
 
   it("supports case-insensitive partial product name search", async () => {
     const response = await request(app).get("/search").query({ q: "wireless" });
+    expect(response.status).toBe(200);
+    expect(response.body.count).toBe(1);
+    expect(response.body.results[0].productName).toBe("Wireless Mouse");
+  });
+
+  it("supports case-insensitive category matching", async () => {
+    const response = await request(app).get("/search").query({ category: "electronics" });
+
+    expect(response.status).toBe(200);
+    expect(response.body.count).toBe(4);
+  });
+
+  it("supports combining all filters", async () => {
+    const response = await request(app)
+      .get("/search")
+      .query({ q: "wire", category: "Electronics", minPrice: 600, maxPrice: 800 });
+
     expect(response.status).toBe(200);
     expect(response.body.count).toBe(1);
     expect(response.body.results[0].productName).toBe("Wireless Mouse");

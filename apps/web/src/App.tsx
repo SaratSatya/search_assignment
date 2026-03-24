@@ -79,7 +79,7 @@ export default function App() {
           <div>
             <p className="eyebrow">Zeerostock</p>
             <h1>Inventory Search</h1>
-            <p className="subtle">Scaffolded starter for the search assignment.</p>
+            <p className="subtle">Filter inventory by name, category, and price range.</p>
           </div>
         </div>
 
